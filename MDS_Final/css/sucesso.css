@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("../images/sucesso.jpg");
+	background-position: 50% 10%;
+	color: white;
+	font-family: 'Gabriola';
+	
+}
+
+div#eba  h1{
+    position: absolute;
+    padding: 10px;
+    margin-top: 250px;
+    margin-left: 80px;
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    font-family: 'Gabriola'; 
+    font-weight: 900;
+    border-radius: 30px;
+	border:1px solid pink;
+	background-color: rgba(192,192,192, 0.3);
+}
+
+
+#botao{ text-align: absolute }
+
+.botaoCandidato{
+    position: absolute;
+   
+    margin-top: 450px;
+    margin-left: 600px;
+    padding: 15px 20px;
+    
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    
+    
+    
+}
+.botaoCandidato:hover{
+    
+    position: absolute;
+    
+    margin-top: 450px;
+    margin-left: 600px;
+    padding: 15px 20px;
+    
+    border-radius: 8px;
+    background-color: yellow;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    
+    
+   
+}

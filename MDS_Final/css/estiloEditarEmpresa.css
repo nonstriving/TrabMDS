@@ -1,0 +1,176 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("../images/editar.jpg");
+	background-position: 70% 40%;
+	color: white;
+	font-family: arial;
+	
+}
+
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu ul li{
+    padding: 0px;
+    
+    float: right;
+    width: 290px;
+    height: 40px;
+    background-color: #FF0066;
+    opacity:0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 3px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    
+    font-family: 'Geneva';
+    
+    display: block;
+}
+#menu ul li a:hover{
+    background-color: #FFC0CB;    
+}
+#menu ul li ul li{
+    display: none;
+}
+
+#menu ul li:hover ul li{
+    display: block;
+}
+input{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border:1px solid black;
+	font-size: 16 pt;
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,0.2);
+	color: white;
+	outline: none;
+}
+
+div#corpo-form{
+	/*background-color: red;*/
+	width: 420px;
+	margin: 130px auto 0px auto;
+	
+}
+
+div#corpo-form-Cad{
+	/*background-color: red;*/
+	width: 420px;
+	margin: 80px auto 0px auto;
+	
+}
+
+div#corpo-form  h1, div#corpo-form-Cad h1{
+	text-align: center;
+	padding: 20px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+input[type=submit]{
+	background-color: #FF0066;
+	border: none;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	background-color: #FF0066;
+	border: none;
+	cursor: pointer;
+	text-decoration:none;
+	background-color: #FA8072;
+}
+
+::-webkit-input-placeholder { /*Webkit browsers */
+	color: #fff;
+}
+
+:-moz-placeholder {/*Mozilla firefox 4 to 18 */
+	color: #fff;
+}
+
+::-moz-placeholder {/* mozilla firefox 19+ */
+	color: #fff;
+}
+:-ms-input-placeholder {/*internet explorer 10+ */
+	color: #fff;
+}
+
+div#msg-sucesso{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(50,205,50,.3);
+	
+}
+
+div.msg-erro{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(250,128,114,.3);
+	
+	
+}
+#menu{
+	position: fixed;
+	top: 0;
+}
+
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu ul li{
+    padding: 0px;
+
+    float: right;
+    width: 335px;
+    height: 40px;
+    background-color: #FF0066;
+    opacity:0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 2px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+    display: block;
+}
+#menu ul li a:hover{
+    background-color: #FA8072;    
+}
+#menu ul li ul li{
+    display: none;
+}
+
+#menu ul li:hover ul li{
+    display: block;
+}
+

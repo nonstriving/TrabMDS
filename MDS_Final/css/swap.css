@@ -1,0 +1,186 @@
+@keyframes bounce{
+    0%, 20% 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#imagem{
+    position: absolute;
+    margin-top: -26px;
+    margin-left: -12px;
+   
+
+}
+
+body{
+
+    
+    background: url('../images/index.jpg');
+    background-size: cover;
+    background-position: 20% 20%; 
+    font-family: Arial;
+    
+    
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu ul li{
+    padding: 0px;
+    
+    float: right;
+    width: 290px;
+    height: 40px;
+    background-color: #FF0066;
+    opacity:0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 3px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    
+    font-family: 'Geneva';
+    
+    display: block;
+}
+#menu ul li a:hover{
+    background-color: #FFC0CB;    
+}
+#menu ul li ul li{
+    display: none;
+}
+
+#menu ul li:hover ul li{
+    display: block;
+}
+
+#botao{ text-align: absolute }
+
+.botaoCandidato{
+    position: absolute;
+    width: 350px;
+    height: 45px;
+    margin-top: 400px;
+    margin-left: 230px;
+    padding: 15px 20px;
+    
+    border-radius: 8px;
+    background-color: #FF0066;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 0 2px #B03060;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    
+}
+.botaoCandidato:hover{
+    animation: bounce 1s;
+    position: absolute;
+    width: 350px;
+    height: 45px;
+    margin-top: 400px;
+    margin-left: 230px;
+    padding: 15px 20px;
+    
+    border-radius: 8px;
+    background-color: #FF0066;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 0 2px #B03060;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+   
+}
+
+.botaoEmpresa{
+    position: absolute;
+    width: 350px;
+    height: 45px;
+    margin-top: 400px;
+    margin-left: 750px;
+    padding: 15px 20px;
+    
+    border-radius: 6px;
+    background-color: #FF0066;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 0 2px #B03060;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+
+}
+.botaoEmpresa:hover{
+    animation: bounce 1s;
+    position: absolute;
+    width: 350px;
+    height: 45px;
+    margin-top: 400px;
+    margin-left: 750px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: #FF0066;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 0 2px #B03060;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+}
+
+div#frases  h1{
+    position: absolute;
+    padding: 0px;
+    margin-top: 140px;
+    margin-left: 350px;
+    text-align: center;
+    color: #FFE4E1;
+    font-size: 72px;
+    font-family: 'Gabriola'; 
+    font-weight: 900;
+}
+
+div#frases  p{
+    position: absolute;
+    padding: 0px;
+    margin-top: 280px;
+    margin-left: 240px;
+    text-align: center;
+    color: #FFFAFA;
+    font-size: 35px;
+    font-family: 'Consolas';
+
+    
+}

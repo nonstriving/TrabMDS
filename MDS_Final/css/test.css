@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#imagem{
+    position: absolute;
+    margin-top: -26px;
+    margin-left: -12px;
+   
+
+}
+
+
+body{
+
+    
+    background: url('../images/quemSomos.jpg');
+    background-size: cover;
+    background-position: 20% 20%; 
+    font-family: Arial;
+    
+    
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu ul li{
+    padding: 0px;
+    
+    float: right;
+    width: 290px;
+    height: 40px;
+    background-color: #FF0066;
+    opacity:0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 3px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+    display: block;
+}
+#menu ul li a:hover{
+    background-color: #FFC0CB;    
+}
+#menu ul li ul li{
+    display: none;
+}
+
+#menu ul li:hover ul li{
+    display: block;
+}
+
+.h2{
+    
+  position: absolute;
+    padding: 0px;
+    margin-top: 200px;
+    
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    font-family: 'Consolas';
+    border-radius: 30px;
+	border:1px solid black;
+	background-color: rgba(255,255,255,0.5);
+
+}

@@ -1,0 +1,66 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+
+    
+    background: url('../images/vaga.jpg');
+    background-size: cover;
+    background-position: 10% 30%; 
+    
+    margin-top: 100px;
+
+    
+}
+
+
+#menu{
+	position: fixed;
+	top: 0;
+}
+
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu ul li{
+    padding: 0px;
+
+    float: right;
+    width: 335px;
+    height: 40px;
+    background-color: #FF0066;
+    opacity:0.8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 2px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+    display: block;
+}
+#menu ul li a:hover{
+    background-color: #FA8072;    
+}
+#menu ul li ul li{
+    display: none;
+}
+
+#menu ul li:hover ul li{
+    display: block;
+}
+
+.page-header h1{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Consolas';
+	font-size: 48px;
+}

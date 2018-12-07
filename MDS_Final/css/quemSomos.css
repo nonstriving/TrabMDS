@@ -1,0 +1,31 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#imagem{
+    position: absolute;
+    margin-top: -26px;
+    margin-left: -12px;
+   
+
+}
+
+body{
+
+    
+    background: url('../images/quemSomos.jpg');
+    background-size: cover;
+    background-position: 20% 20%; 
+    font-family: Arial;
+    
+    
+}
+
+
+.h2{
+    
+  color: white;
+
+}
